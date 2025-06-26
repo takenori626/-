@@ -37,7 +37,7 @@
    
 2. index.html をブラウザで開くだけでOK！
    
- 📁 ファイル構成
+ 📁 ファイル構成  
 memo-app/  
 ├── index.html       ... アプリ本体  
 ├── style.css        ... スタイル定義  
