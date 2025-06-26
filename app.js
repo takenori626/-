@@ -6,7 +6,9 @@ const savedMemo = localStorage.getItem("memo");
 if (savedMemo) {
     memoArea.value = savedMemo;
 }
+
 //保存ボタンを押したときの処理
 document.getElementById("save").addEventListener("click",() => {
-    localStorage.setItem
-}
+    localStorage.setItem("memo",memoArea.value);
+    alert('メモを保存しました！');
+});
